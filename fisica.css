@@ -1,0 +1,49 @@
+@charset "UTF-8";
+nav {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    position: center;
+    background-color: rgb(54, 54, 58);
+    z-index: auto;
+    align-content: center;
+    margin: top;
+}
+
+nav a {
+    color: #fff;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: auto;
+    align-content: center;
+    margin: auto;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    color: white z-index : auto;
+    align-content: center;
+}
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+#descricao{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#introducao{
+    font-family: 'Bebas Neue', cursive;
+}
+#explicacao{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+}
+

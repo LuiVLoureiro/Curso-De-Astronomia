@@ -1,0 +1,304 @@
+@charset "UTF-8";
+
+/*Barra de Navegação*/
+
+nav {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    position: center;
+    background-color: rgb(54, 54, 58);
+    z-index: auto;
+    align-content: center;
+    margin: top;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    color: #fff;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: auto;
+    align-content: center;
+    margin: auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Apresentação*/
+
+.Titulo1 {
+    text-align: center;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    /*background-color: black;*/
+    font-size: 40px;
+    height: 60px;
+}
+
+.SubTitulo1 {
+    text-align: center;
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    /*background-color: black;*/
+    font-size: 15px;
+    height: 100px;
+}
+
+
+/*CursoAstrofisica*/
+
+.Titulo2 {
+    text-align: center;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    /*background-color: black;*/
+    font-size: 35px;
+    height: 55px;
+}
+
+.SubTitulo2 {
+    text-align: center;
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    /*background-color: black;*/
+    font-size: 15px;
+    height: 100px;
+}
+
+
+/*CursoAlgebra*/
+
+.FundoPreto {
+    background-color: #1b1b1b;
+    height: 75px;
+}
+
+.TituloAlternativo {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+
+/*ListaCursos*/
+
+.TituloListaCursos {
+    text-align: center;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    /*background-color: black;*/
+    font-size: 35px;
+    height: 55px;
+}
+
+.SubTituloListaCursos {
+    text-align: center;
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    /*background-color: black;*/
+    font-size: 15px;
+    height: 100px;
+}
+
+
+/*Unama*/
+
+.TituloUnama {
+    text-align: center;
+    color: #218a2b;
+    font-family: 'Bebas Neue', cursive;
+    /*background-color: black;*/
+    font-size: 35px;
+    height: 55px;
+}
+
+.SubTituloUnama {
+    text-align: center;
+    color: #218a2b;
+    font-family: 'PT Sans Narrow', sans-serif;
+    /*background-color: black;*/
+    font-size: 15px;
+    height: 100px;
+}
+
+
+/*Contato*/
+
+.ContatoUnama {
+    text-align: center;
+    color: #218a2b;
+    font-family: 'Bebas Neue', cursive;
+    /*background-color: black;*/
+    font-size: 19px;
+    height: 55px;
+}
+
+
+/*Fotos*/
+
+.FotoPlanetas {
+    text-align: center;
+    size: 10px;
+    height: 500px;
+}
+
+.FotoCurso1 {
+    text-align: center;
+    size: 10px;
+    height: 500px;
+}
+
+.FotoCurso2 {
+    background-color: #1b1b1b;
+    text-align: center;
+    size: 5px;
+    height: 600px;
+}
+
+.FotoUnama {
+    text-align: center;
+    background-color: #218a2b;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.Foto1 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("https://registrodemarca.arenamarcas.com.br/wp-content/uploads/2020/05/Eletromagnetismo.jpg");
+    background-size: cover;
+
+    /*Eletromagnetismo*/
+}
+
+.Foto2 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("https://www.tuiuti.edu.br/hubfs/ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o%202.jpg");
+    background-size: cover;
+    /*Computação*/
+}
+
+.Foto3 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("https://conhecimentos-verdadeiros.webnode.com/_files/system_preview_detail_200000039-6688667824/matematica.jpg");
+    background-size: cover;
+    /*Matemática*/
+}
+
+.Foto4 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("https://s1.static.brasilescola.uol.com.br/be/vestibular/graficos-tabelas-sao-objetos-basicos-para-estudo-estatistica-5812154677e56.jpg");
+    background-size: cover;
+    /*Estatisca*/
+}
+
+.Foto5 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("https://blog.explicae.com.br/wp-content/uploads/2019/05/f%C3%ADsica-estudo-dica-enem-800x500.png");
+    background-size: cover;
+    /*Eletromagnetismo*/
+}
+
+.Foto6 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("https://professorpinguim.com.br/blog/wp-content/uploads/2020/07/meca%CC%82nica-quantica-2.jpg");
+    background-size: cover;
+    /*Calculo Diferencial e Integral*/
+}
+
+.Foto7 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("https://www.meteoritos.com.br/wp-content/uploads/2020/07/figura1-1024x647.jpg");
+    background-size: cover;
+}
+
+.Foto8 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("https://images.sympla.com.br/611fa004d83b2.jpg");
+    background-size: cover;
+}
+
+
+/*EfeitoFotos*/
+
+.card:hover {
+    transform: translateY(-10px)
+}
